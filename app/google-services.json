@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "431286297186",
+    "project_id": "srvideocall",
+    "storage_bucket": "srvideocall.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431286297186:android:d47cbaa66b306d8648673b",
+        "android_client_info": {
+          "package_name": "com.example.srvideocall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431286297186-8malv0q9itp8utdfoaii75dksb3vfobk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwA2P2fXb_vb0AX75vQUsU0NsAAV4fEQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431286297186-8malv0q9itp8utdfoaii75dksb3vfobk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
