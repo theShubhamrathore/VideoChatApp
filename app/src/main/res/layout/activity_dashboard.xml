@@ -21,8 +21,10 @@
         android:layout_marginEnd="36dp"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:lottie_autoPlay="true"
         app:lottie_fileName="videocall.json"
         app:lottie_loop="true"
@@ -32,13 +34,13 @@
         android:id="@+id/bottomNavigationView"
         android:layout_width="413dp"
         android:layout_height="69dp"
-        android:layout_marginTop="662dp"
+        android:layout_marginTop="660dp"
         android:background="@color/black"
         app:itemBackground="@color/white"
         app:labelVisibilityMode="labeled"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
@@ -67,8 +69,9 @@
 
             <EditText
                 android:id="@+id/codebox"
-                android:layout_width="match_parent"
+                android:layout_width="318dp"
                 android:layout_height="55dp"
+                android:layout_marginLeft="20dp"
                 android:background="@color/white"
                 android:ems="10"
                 android:hint="Code Box"
@@ -76,40 +79,42 @@
 
             <Button
                 android:id="@+id/joinbtn"
-                android:layout_width="match_parent"
+                android:layout_width="320dp"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
                 android:background="#FFFFFF"
-                android:text="Join Our"
+                android:text="Join for fun"
                 android:textColor="#FFFFFF"
                 app:icon="@android:drawable/ic_menu_set_as" />
 
             <Button
                 android:id="@+id/sharebtn"
-                android:layout_width="match_parent"
+                android:layout_width="317dp"
                 android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
-                android:text="Share"
+                android:text="invite friends"
                 app:icon="@drawable/ic_baseline_share_24" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="346dp"
+        android:layout_height="69dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="182dp"
         android:layout_marginBottom="10dp"
-        android:text="Please Enter the code with your friends to start videocall"
+        android:text="Now Come here And join with your community"
         android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/cardView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.354" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

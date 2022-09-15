@@ -43,6 +43,18 @@ public class signup extends AppCompatActivity {
         createbtn = findViewById(R.id.createbtn);
         namebox = findViewById(R.id.namebox);
 
+
+        loginbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                startActivity(new Intent(signup.this,loginactivity.class));
+
+            }
+        });
+
+
         createbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

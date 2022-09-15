@@ -27,8 +27,8 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card"
-        android:layout_width="386dp"
-        android:layout_height="312dp"
+        android:layout_width="350dp"
+        android:layout_height="296dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="270dp"
         android:layout_marginRight="10dp"
@@ -49,7 +49,7 @@
             <EditText
                 android:id="@+id/emailbox"
                 style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
-                android:layout_width="match_parent"
+                android:layout_width="332dp"
                 android:layout_height="55dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
@@ -62,7 +62,7 @@
 
             <EditText
                 android:id="@+id/passwordbox"
-                android:layout_width="match_parent"
+                android:layout_width="325dp"
                 android:layout_height="55dp"
                 android:layout_marginBottom="10dp"
                 android:background="@color/white"
@@ -72,7 +72,7 @@
 
             <Button
                 android:id="@+id/loginbtn"
-                android:layout_width="match_parent"
+                android:layout_width="323dp"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@color/teal_700"
@@ -83,7 +83,7 @@
 
             <Button
                 android:id="@+id/createbtn"
-                android:layout_width="match_parent"
+                android:layout_width="320dp"
                 android:layout_height="62dp"
                 android:layout_marginBottom="10dp"
                 android:text="Create an account"
@@ -106,4 +106,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.738" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter your name "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
